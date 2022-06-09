@@ -18,6 +18,7 @@ header {
     display: flex;
     justify-content: center;
     font-size: 8rem;
+    margin-bottom: 2rem;
 }
 
 .main1 {
@@ -47,6 +48,9 @@ header {
 #box1{
     background-color: var(--playerRed);
     font-size: 3rem;
+    width: 80%;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 #player1but {
@@ -56,6 +60,10 @@ header {
 
 #box2{
     background-color: var(--playerBlue);
+    font-size: 3rem;
+    width: 80%;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 #player2but {
@@ -65,6 +73,10 @@ header {
 
 #box3{
     background-color: var(--playerYellow);
+    font-size: 3rem;
+    width: 80%;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 #player3but {
@@ -74,6 +86,10 @@ header {
 
 #box4{
     background-color: var(--playerGreen);
+    font-size: 3rem;
+    width: 80%;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 #player4but {
