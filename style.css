@@ -1,13 +1,27 @@
+:root {
+    --playerRed: #ED3636;
+    --playerBlue: #4E4EE9;
+    --playerYellow: #FFDF1A;
+    --playerGreen: #4EB94E;
+
+    --lightGrey: #445044;
+    --darkGrey: #1e201e;
+}
+
 body {
-    background-color: cornflowerblue !important;
+    background-color: var(--darkGrey) !important;
 }
 
 header {
-    background-color: rgb(223, 17, 17);
+    
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 8rem;
 }
 
 .main1 {
-    background-color: cadetblue;
+    
     display: flex;
     justify-content: space-evenly;
     flex-wrap:nowrap;
@@ -20,14 +34,49 @@ header {
 .scorebox {
     margin-top: 4rem;
     margin-bottom: 4rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    background-color: burlywood;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: max-content;
+    border-radius: 10%;
+    
+}
+
+#box1{
+    background-color: var(--playerRed);
+    font-size: 3rem;
+}
+
+#player1but {
+    font-size: 2rem;
+    width: 60%;
+}
+
+#box2{
+    background-color: var(--playerBlue);
+}
+
+#player2but {
+    font-size: 2rem;
+    width: 60%;
+}
+
+#box3{
+    background-color: var(--playerYellow);
+}
+
+#player3but {
+    font-size: 2rem;
+    width: 60%;
+}
+
+#box4{
+    background-color: var(--playerGreen);
+}
+
+#player4but {
+    font-size: 2rem;
+    width: 60%;
 }
