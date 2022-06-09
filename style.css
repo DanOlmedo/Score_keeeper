@@ -22,7 +22,8 @@ header {
 }
 
 header h1 {
-    font-size: 5rem;
+    font-size: 2rem;
+    margin-top: 1rem;
 }
 
 .main1 {
@@ -52,8 +53,8 @@ header h1 {
 #box1{
     background-color: var(--playerRed);
     font-size: 3rem;
-    width: 80%;
-    margin-left: 1rem;
+    width: 60%;
+    margin-left: 2rem;
     margin-right: 1rem;
 }
 
@@ -65,8 +66,8 @@ header h1 {
 #box2{
     background-color: var(--playerBlue);
     font-size: 3rem;
-    width: 80%;
-    margin-left: 1rem;
+    width: 60%;
+    margin-left: 2rem;
     margin-right: 1rem;
 }
 
@@ -78,8 +79,8 @@ header h1 {
 #box3{
     background-color: var(--playerYellow);
     font-size: 3rem;
-    width: 80%;
-    margin-left: 1rem;
+    width: 60%;
+    margin-left: 2rem;
     margin-right: 1rem;
 }
 
@@ -91,8 +92,8 @@ header h1 {
 #box4{
     background-color: var(--playerGreen);
     font-size: 3rem;
-    width: 80%;
-    margin-left: 1rem;
+    width: 60%;
+    margin-left: 2rem;
     margin-right: 1rem;
 }
 
